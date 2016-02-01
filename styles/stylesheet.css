@@ -8,6 +8,7 @@ body{
   background-color: #FFF;
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 #front-screen{
@@ -25,6 +26,7 @@ h1{
   color: rgba(160, 38, 38, 0.73);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+  letter-spacing: 5px;
 }
 
 .frog-row{
@@ -35,8 +37,8 @@ h1{
 }
 
 .icon{
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .icon:hover{
